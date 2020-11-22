@@ -1,0 +1,56 @@
+<div id="switchContainer" style="float: right;">
+    <div class="onoffswitch">
+        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="switch" />
+        <label class="onoffswitch-label" for="switch">
+            <div class="onoffswitch-inner">
+                <div class="onoffswitch-active">خودکار</div>
+                <div class="onoffswitch-inactive">دستی</div>
+            </div>
+            <div class="onoffswitch-switch"></div>
+        </label>
+    </div>
+</div>
+<span id="helpSentence1" style="float: right; margin-right: 20px;">با استفاده از نوار بالایی زمان مورد نظر از روز را
+    تعیین نمایید. همچنین می توانید جهت تنظیم دقیق تر از نوار دوم استفاده نمایید.</span>
+    
+<dl class="ZoomBox" style="float: right; margin-right: 105px; clear: both; margin-top: -10px;" id="hevenContainer">
+    <dd style="text-align: center; display: inline-block; vertical-align: top; direction: ltr;" id="hevenLeftBox">
+        10:16:23</dd>
+    <dd class="ZoomBoxInner" style="vertical-align: top; display: inline-block; direction: ltr;" id="hevenMiddlePart">
+        <input class="ZoomBoxInner" type="text" id="heven" min="30600" max="50400" value="50400"
+            style="display: none;" />
+        <div class="range-input" style="width: NaNpx;">
+            <div class="range-rail"></div>
+            <a id="hevenCursor" class="range-handle" style="left: 302.387px; position: absolute;"></a>
+        </div>
+    </dd>
+    <dd style="display: inline-block; text-align: center; vertical-align: top; direction: ltr;" id="hevenRightBox">
+        &nbsp;&nbsp;&nbsp;زمان&nbsp;&nbsp;&nbsp;</dd>
+</dl>
+<dl class="ZoomBox" style="float: right; margin-right: 105px; clear: both; display: none;" id="speedContainer">
+    <dd style="text-align: center; display: inline-block; vertical-align: top; direction: rtl; margin-top: -8px;"
+        id="speedLeftBox">1 ثانیه</dd>
+    <dd class="ZoomBoxInner"
+        style="vertical-align: top; display: inline-block; width: 300px; direction: ltr; margin-top: -8px;">
+        <input class="ZoomBoxInner" type="text" id="speed" min="1" max="100" value="1" style="display: none;" />
+        <div class="range-input" style="width: NaNpx;">
+            <div class="range-rail"></div>
+            <a id="" class="range-handle" style="left: 0px; position: absolute;"></a>
+        </div>
+    </dd>
+    <dd style="display: inline-block; text-align: center; vertical-align: top; direction: ltr; margin-top: -8px;"
+        id="speedRightBox">&nbsp;سرعت&nbsp;</dd>
+</dl>
+<dl class="ZoomBox" style="float: right; margin-right: 105px; clear: left;" id="slightContainer">
+    <dd style="width: 60px; text-align: center; display: inline-block; vertical-align: top; direction: ltr; margin-top: -8px;"
+        id="slightLeftBox">0</dd>
+    <dd class="ZoomBoxInner" style="vertical-align: top; display: inline-block; direction: ltr; margin-top: -8px;">
+        <input class="ZoomBoxInner" type="text" id="slight" min="0" max="60" value="30" style="display: none;" />
+        <div class="range-input" style="width: NaNpx;">
+            <div class="range-rail"></div>
+            <a id="" class="range-handle" style="left: 463.5px; position: absolute;"></a>
+        </div>
+    </dd>
+    <dd style="display: inline-block; text-align: center; vertical-align: top; direction: ltr; margin-top: -8px;"
+        id="slightRightBox">&nbsp;&nbsp;&nbsp;ثانیه&nbsp;&nbsp;&nbsp;</dd>
+</dl>

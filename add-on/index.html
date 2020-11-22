@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        #agahPanel {
+            width: 49%;
+            float: left;
+            height: 1000px;
+
+        }
+
+        #tsePanel {
+            width: 49%;
+            float: right;
+            height: 1000px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="result"></div>
+    <!-- <iframe src="http://tablokhani.com/%D9%86%D9%82%D8%B4%D9%87-%D8%A8%D8%A7%D8%B2%D8%A7%D8%B1" frameborder="1" id="agahPanel"></iframe>
+    <iframe src="https://www.sahamyab.com/heatmap" frameborder="1" id="tsePanel"></iframe> -->
+    <script>
+        // var url = 
+        // var xhr = new XMLHttpRequest();
+        // xhr.readystatechange=()=>{
+        //     if(xhr.readyState==4 && xhr.status==200){
+        //         document.getElementById('result').innerHTML = xhr.responseText;
+        //     }
+        // }
+        // xhr.open("get",url,true)
+        // xhr.send();
+        var InsCode = 114312662654155
+        // $.ajax({
+        //     url: "http://www.tsetmc.com/tsev2/data/clienttype.aspx",
+        //     data: {
+        //         i: InsCode
+        //     },
+        //     cache: true,
+        //     dataType: "text",
+        //     success: function (data) {
+        //         document.getElementById('result').innerHTML = data;
+        //     }
+        // })
+
+        var LVal18AFC=
+        $.ajax({
+            url: "tsev2/data/CodalContent.aspx",
+            data: {
+                s: LVal18AFC,
+                r: 12
+            },
+            cache: true,
+            dataType: "text",
+            success: function (data) {
+                console.log(data);
+            }
+        })
+    </script>
+</body>
+
+</html>
